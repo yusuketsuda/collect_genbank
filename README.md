@@ -21,17 +21,18 @@ AC000001.1
 ```
 
 # Usage
-When downloading genbank files, ***you must write your email address collectly***. Otherwise, this programm does not work.
+When downloading genbank files, ***you must write your email address correctly***. Otherwise, this programm does not work.
 
 * at directory collect_genbank.py is downloaded
 ```bash
 python collect_genbank.py -e <your email address> -f <list of accession numbers> -o <location of directory to store if necessary>
 ```
 
-* example
+* example1 (genbank files are stored in "genbank" directory automatically)
 ```bash
 python collect_genbank.py -e thisisnotcollectemail001(at)aaa.com -f list.csv
 ```
+* example2 (genbank files are stored in "result" directory)
 ```bash
 python collect_genbank.py -e thisisnotcollectemail001(at)aaa.com -f list2.csv -o result
 ```
