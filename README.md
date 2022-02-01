@@ -45,9 +45,6 @@ python collect_genbank.py -e thisisnotcollectemail001(at)aaa.com -f list2.csv -o
 # License
 MIT License
 
-# Reference
-
-
 # Author
 * Yusuke Tsuda
 * Bacteriology, Nagoya University Graduated School of Medicine
