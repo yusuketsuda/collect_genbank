@@ -23,7 +23,7 @@ AC000001.1
 # Usage
 When downloading genbank files, ***you must write your email address correctly***. Otherwise, this programm does not work.
 
-* at directory collect_genbank.py is downloaded
+* at directory collect_genbank.py exists
 ```bash
 python collect_genbank.py -e <your email address> -f <list of accession numbers> -o <location of directory to store if necessary>
 ```
