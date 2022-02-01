@@ -1,18 +1,18 @@
 # collect_genbank
-For beginners, you can download genbank files from NCBI using this programm.  
+You can download genbank files from NCBI using this programm.  
 
 # Requirement
 * Biopython
 
 # Installation
-Down load **collect_genbank.py** locally 
+Download **collect_genbank.py** locally 
 
 # Preparation
 For performing this programm, prepare a csv file or text file (csv file is recommended).   
 The file contains list of accession number.  
-You can obtain the list of accession number to be downloaded from NCBI or the result of Blast.  
+You can obtain the list of accession number from NCBI or the result of Blast.  
   
-Format of content is as below and example of the file is available in this repository (example.csv, example.txt).  
+Format of content is as below and you can see examples of the file is available in this repository (example.csv, example.txt).  
 
 ```
 AA000001.1
@@ -25,7 +25,7 @@ When downloading genbank files, ***you must write your email address collectly**
 
 * at directory collect_genbank.py is downloaded
 ```bash
-python collect_genbank.py -e < your email address > -f < list of accession numbers > -o < location of directory to store if necessary >
+python collect_genbank.py -e <your email address> -f <list of accession numbers> -o <location of directory to store if necessary>
 ```
 
 * example
